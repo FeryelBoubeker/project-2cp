@@ -1,0 +1,465 @@
+/* the home page styliny*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.homeflex{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    min-height: 600px;
+}
+.thenav{
+    background-color: white;
+    
+    height: 70px;
+    text-align: center;
+}
+.asikel{
+    color: #FB4402;
+    font-size: 120px;
+    padding: 6px 0em;
+    margin: 40px 0px;
+    
+
+}
+.discover{
+    font-size: 30px;
+    padding: 4px 0em;
+    line-height: 1.5em;
+
+}
+.Getstartedbtn{
+    background-image: linear-gradient(to right, #FA4301 , #FF9D17);
+    border: none; 
+    color: white; 
+    padding: 1.2em 3.5em;
+    border-radius: 10px;
+    margin: 2em 0em;
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    
+}
+.blobe{
+    position: absolute;
+    top: 20px;
+    
+}
+.alltheglobs{
+    padding-right: 32em;
+    height: 400px;
+}
+.homeflex1{
+    max-width: 250px;
+    margin-right: 150px;
+}
+ .bestplaces{
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .thetextbestplaces{
+    color: #9C9C9C;
+    font-weight: 150em;
+    font-size: large;
+    min-width: 165px;
+ }
+.knowmore{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .lin1{
+    background-color: #bcbcbc;
+    height: 0.05em;
+    width: 400px;
+    margin: 0em 2em;
+ }
+.carasoul{
+    background-color: #F2F2F2;
+    padding: 2em 2em;
+ 
+}
+.slisingimgcontainer{
+    padding: 2em 0em;
+    margin: 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
+    background-color:#b8b8b8;
+   min-height: 30px;
+   min-width: 30px;
+
+
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left:hover{
+    background-color:#919191;
+    
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+    background-color:#b8b8b8;
+   min-height: 30px;
+   min-width: 30px;
+
+
+}
+.react-multiple-carousel__arrow.react-multiple-carousel__arrow--right:hover{
+    background-color:#919191;
+    
+}
+
+.react-multi-carousel-dot--active button {
+    background: #ffffff00;
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+    background: #b8b8b8;
+    border: none;
+}
+
+
+.theplacename, .location{
+    padding: 1em 0em;
+    overflow: hidden;
+}
+.theplacename{
+    
+    font-weight: bold;
+    font-size: x-large;
+}
+.location, .seemore{
+    display: flex;
+}
+
+.arrow{
+    position: relative;
+    top: 5px;
+ 
+}
+.locationandqndseemore{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 100px;
+    z-index: 3;
+    margin-right: 50px;
+    opacity: 0;
+    
+  
+}
+.locationandqndseemore{
+
+}
+.location{
+    
+    max-width: 150px;
+}
+
+
+
+.getstqrtedtext{
+   text-decoration: none; 
+   color: white;
+}
+/*i used the mask methode*/
+
+
+img.slidinigimg{
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    -webkit-mask-repeat: no-repeat;
+    
+     -webkit-mask-image: url('../img-and-icons/slidingimg1.svg');
+     object-fit: cover;
+     object-position: center;
+     aspect-ratio: 1/1;
+ 
+     display: block;
+}
+.slisingimgcontainer:hover > .locationandqndseemore{
+    opacity: 1;
+}
+.slisingimgcontainer:hover > img{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.circle{
+    height: 300px;
+    background-color: #F2F2F2;
+   border-bottom-right-radius: 50%  ;
+   border-bottom-left-radius: 50% ;
+  
+}
+.theservecies{
+    height: 500px;
+    
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.service-wraper{
+    position: relative;
+}
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 2em;
+}
+p{
+    max-width: 700px;
+    font-size: 25px;
+}
+span{
+   font-size: 70px;
+   font-weight: bold;
+  margin: 0px 15px ;
+}
+.aboutustext{
+    line-height:3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form.feedbackform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFAD50;
+
+}
+textarea::placeholder,
+input::placeholder{
+    text-align: center;
+    color: black;
+
+}
+input.feedbackInput{
+    background-color: #FFAD50;
+    padding: 1em 2em ;
+    width: 400px;
+    margin: 30px;
+    border: solid rgb(82, 81, 81) 0.2px;
+    border-radius: 5px;
+}
+
+input.feedbackInput:focus{
+    outline: none;
+   font-size: 15px;
+
+}
+textarea.feedtextarea{
+    width: 860px;
+    padding: 1em 2em;
+    border: solid rgb(82, 81, 81) 0.2px;
+    border-radius: 5px;
+    background-color: #FFAD50;
+}
+textarea.feedtextarea:focus{
+    outline: none;
+   font-size: larger;
+}
+.feedback-text{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 1em  ;
+
+}
+button.submit{
+    background-color:#1C1B1B;
+    color: white;
+    padding: 1em 2em;
+    margin: 2em 0em ;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 1200px)  {
+    .serviceimg{
+        height: 200px;
+        width: 200px;
+    }
+    a.add-destination-service,
+    a.add-publication-servive,
+    a.Search-for-destination,
+   a.random-place-to-go{
+        font-size: 30px !important;
+    }
+    a.add-destination-service{
+        top: 0px !important;
+    }
+   .aboutustext{
+        min-width: 450px; 
+        line-height: 35px;
+        
+   }
+   p.aboutus-para{
+    font-size: 20px !important;
+    margin-left: 20px;
+   }
+   img.algeria-pic{
+    max-width: 500px;
+   }
+}
+
+
+@media (max-width: 1000px) {
+    .alltheglobs{
+        display: none;
+    }
+    .homeflex1{
+        max-width: none;
+        margin: auto;
+    }
+
+   textarea.feedtextarea{
+    width: 400px;
+   }
+
+   input.feedbackInput{
+    width: 170px;
+   }
+   img.algeria-pic{
+    display: none;
+   }
+    p.aboutus-para{
+    max-width: none;
+    min-width: none;
+   }
+   .serviceimg{
+    height: 150px;
+    width: 150px;
+      }
+      a.add-destination-service,
+     a.add-publication-servive,
+      a.Search-for-destination,
+      a.random-place-to-go{
+       font-size: 20px !important;
+     }
+    #serviceimg1{
+        bottom: 40px !important;
+    }
+    #serviceimg2{
+        top: 40px !important;
+    }
+}
+
+@media (max-width: 888px){
+    .serviceimg{
+        height: 100px;
+        width: 100px;
+          }
+          a.add-destination-service,
+         a.add-publication-servive,
+          a.Search-for-destination,
+          a.random-place-to-go{
+           font-size: 15px !important;
+
+        }
+       
+        .homeflex1{
+            margin-left: 20px;
+        }
+        #serviceimg1{
+            bottom: 40px !important;
+        }
+        #serviceimg4{
+            bottom: 40px !important;
+        }
+        #serviceimg3{
+            top: 60px !important;
+        }
+        a.add-publication-servive{
+            bottom:  85px !important;
+
+        }
+        #serviceimg2{
+            top: 60px !important;
+        }
+
+        .feedback-text{
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 1em  ; 
+        }
+
+        .theservecies{
+                height: 300px;}
+        .circle{
+                height: 100px;}
+           
+}
+
+@media (max-width: 479px){
+    #serviceimg1{
+        left: 40px !important;
+    }
+    #serviceimg3{
+        top: 60px !important;
+    }
+  
+    #serviceimg2{
+        top: 60px !important;
+    }
+    #serviceimg4{
+        left: -20px !important;
+    }
+    .add-destination-service{
+        left: -20%!important;
+    }
+    .random-place-to-go{
+       left: 70% !important;
+       
+       top: -20px !important;
+    }
+    textarea.feedtextarea{
+        width: 300px;
+        margin-right: 32px;
+       }
+       p.aboutus-para{
+        width: 350px;
+       }
+       .asikel{
+        font-size: 100px;
+       }
+      
+}
+
+/*saved  list responsive*/
+
+
+@media (max-width: 542px){
+    .cardcontainer{
+        justify-content: center;
+    }
+    }
